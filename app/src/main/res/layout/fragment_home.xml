@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradienttree"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/login_title"
+        android:layout_marginRight="130dp"
+          android:layout_marginTop="50dp"
+        android:background="@drawable/user_profile_image_background"
+        android:elevation="4dp"
+        android:src="@drawable/ic_boy" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:gravity="start"
+        android:textSize="25sp"
+        app:fontFamily="@font/aladin"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        app:fontFamily="@font/aladin"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        app:fontFamily="@font/aladin"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/buttonEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_transparent"
+        android:text="Profile Change"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textViewTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+
+
+</LinearLayout>

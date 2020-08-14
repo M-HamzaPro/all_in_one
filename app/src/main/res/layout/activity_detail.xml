@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradienttree"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:textSize="20sp"
+        android:id="@+id/txtid"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+
+        android:textAllCaps="true"
+
+        android:id="@+id/txttitle"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/txtdescription"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</LinearLayout>

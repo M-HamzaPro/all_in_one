@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradienttree"
+    tools:context=".jaro_winkler_algorithm">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="120dp">
+
+        <TextView
+            android:id="@+id/jarotitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:text="JARO_WINKLER_ALGORITHM"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/aladin" />
+
+        <EditText
+            android:id="@+id/str1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorHint"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Fetch Text From Server"
+            android:inputType="textLongMessage"
+           />
+
+        <EditText
+            android:id="@+id/str2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorHint"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Fetch Text From Server"
+            android:inputType="textLongMessage"/>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="22dp"
+            android:textColor="@color/colorWhite"
+            android:onClick="check"
+            android:background="@drawable/button_transparent"
+            android:text="Jaro_Winkler_Algorithm"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:text=""
+           android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/aladin" />
+
+        <TextView
+            android:id="@+id/result2"
+            android:layout_width="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/aladin" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

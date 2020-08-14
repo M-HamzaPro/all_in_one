@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:visibility="visible"
+                    android:background="@drawable/gradienttree"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/study"
+                    android:alpha="0.1"
+                    android:scaleType="centerCrop"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+
+                    android:src="@drawable/icon"
+                    android:id="@+id/spashimage"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="200dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                   android:layout_marginTop="400dp"
+                    android:text="@string/label1"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/label"
+                    android:layout_width="wrap_content"
+                    android:text="@string/label2"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginTop="450dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_studentHome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        android:iconTint="@color/colorAccent"/>
+
+    <item
+        android:id="@+id/navigation_joinedClass"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:title="Classes"
+        android:iconTint="@color/colorAccent"/>
+
+    <item
+        android:id="@+id/navigation_joinClass"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Join Class"
+        android:iconTint="@color/colorAccent"/>
+
+</menu>
